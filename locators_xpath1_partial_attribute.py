@@ -33,10 +33,15 @@ locator_email_loc.send_keys("Padma123@test.com")
 locator_phone_loc.send_keys("123 456 4567")
 locator_location_loc.send_keys("Chicago")
 locator_grad_loc.send_keys("BE CSE")
+time.sleep(5)
 locator_yos.send_keys("2026")
+time.sleep(5)
 locator_male_fem.click()
+time.sleep(5)
 locator_reg_now.click()
+time.sleep(5)
 
+driver.quit()
 
 
 
